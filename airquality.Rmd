@@ -1,0 +1,26 @@
+---
+title: "airquality"
+author: "shweta sharma"
+date: "7/29/2020"
+output: html_document
+---
+
+This is my first markdown document.
+
+let's load some data.
+```{r}
+library(datasets)
+data("airquality")
+summary(airquality)
+
+```
+
+Here's a pairs plot of the data.
+
+```{r}
+pairs(airquality)
+```
+
+
+
+
